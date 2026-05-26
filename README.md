@@ -83,4 +83,6 @@ PREX 是一个面向预测市场和链上机会发现的 AI 交易层。
 Interested in PREX, prediction markets, strategy tooling, or integrations?
 
 - Website: [https://prex.best](https://prex.best)
-- X / Telegram / business contact: to be added
+- X: [https://x.com/No_tariff3](https://x.com/No_tariff3)
+- Telegram: [@WARD999999](https://t.me/WARD999999)
+- Email: 370743412we@gmail.com
