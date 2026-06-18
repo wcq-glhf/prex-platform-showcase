@@ -13,8 +13,8 @@ PREX helps users discover, analyze, test, and trade market opportunities from on
 - Aggregates prediction-market data and trading workflows.
 - Supports Polymarket-focused market browsing, portfolio views, and trading UX.
 - Provides natural-language strategy backtesting for Binance USDT perpetuals.
-- Supports user-configured Binance / OKX live strategy execution workflows.
-- Tracks real live-strategy performance for strategy ranking and copy-trading exploration.
+- Supports user-configured Binance / OKX live strategy execution workflows for saved backtests and public leaderboard strategies.
+- Tracks real live-strategy performance for strategy ranking, copy-trading exploration, and live setup discovery.
 - Adds a Meme Scanner for detecting high-momentum small-cap tokens using on-chain and social signals.
 - Includes a BTC/ETH liquidity and liquidation-pressure map for futures research.
 - Includes referral and fee-accounting workflows for community growth.
@@ -46,8 +46,8 @@ PREX helps users discover, analyze, test, and trade market opportunities from on
 | Trading UX | Connect wallet, manage trading flow, and submit Polymarket orders through PREX. |
 | Portfolio | Review user positions and wallet-linked trading state. |
 | Backtesting | Describe a futures strategy in natural language and run factor-based backtests on Binance USDT perpetual data. |
-| Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution with exchange minimum-order safeguards. |
-| Strategy Ranking | Display real live-traded strategies and practical performance signals instead of mock rankings. |
+| Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution from saved backtests or public leaderboard strategies, with exchange minimum-order safeguards. |
+| Strategy Ranking | Display real live-traded strategies and practical performance signals, and expose public strategies as copy/live candidates. |
 | Meme Scanner | Detect on-chain meme/token opportunities using liquidity, turnover, market cap, social heat, risk concentration, and K-line data. |
 | Liquidity Map | Estimate BTC/ETH futures liquidity and liquidation-pressure zones across major exchanges. |
 | Invite System | User invite links, fee discounts, and reward accounting. |
@@ -74,8 +74,8 @@ PREX 是一个面向预测市场、合约策略和链上机会发现的 AI 交�
 - 聚合预测市场信息和交易流程；
 - 优化 Polymarket 交易体验；
 - 支持用自然语言描述合约策略，并进行 Binance USDT 永续回测；
-- 支持用户配置 Binance / OKX API 后进行自控实盘策略执行；
-- 支持真实实盘策略排行榜和跟单功能探索；
+- 支持用户配置 Binance / OKX API 后，对自己的回测策略或排行榜公开策略进行自控实盘策略执行；
+- 支持真实实盘策略排行榜、跟单功能探索和 live 策略候选发现；
 - 增加妖币检测器，用链上数据、社交热度、成交换手、市值结构和风险集中度给小币种打分；
 - 提供 BTC / ETH 合约流动性和清算压力估算地图；
 - 支持邀请返佣和用户增长体系；

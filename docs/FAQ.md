@@ -24,6 +24,10 @@ Yes. PREX supports natural-language strategy descriptions and factor-based backt
 
 PREX supports user-configured Binance and OKX live strategy execution workflows. Users control their own exchange API credentials, and withdrawal permissions are not required.
 
+## Can users run a public leaderboard strategy?
+
+Yes. The live strategy setup can show both the user's saved backtest strategies and public leaderboard strategies. Users still configure their own Binance or OKX API credentials before enabling execution.
+
 ## Does PREX custody user funds?
 
 PREX is designed around user-controlled wallets and user-controlled exchange accounts. Product details may evolve, but the goal is to reduce trading friction without forcing users into a fully custodial flow.

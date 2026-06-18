@@ -69,6 +69,8 @@ Current capabilities:
 - Stop-and-close-position workflow when switching strategies.
 - Scheduled live strategy execution based on candle timing.
 - Live strategy status, recent actions, and execution notes.
+- Live setup can load both user-saved backtest strategies and public leaderboard strategies.
+- Public leaderboard strategies can be selected for Binance or OKX execution after the user configures their own API credentials.
 
 ## 6. Strategy Ranking And Copy-Trading Foundation
 
@@ -81,6 +83,8 @@ Current capabilities:
 - Live strategy notional and follower-style metadata.
 - Copy-trading subscription service foundation.
 - Strategy candidate saving from backtest results.
+- Public copy/live strategies are exposed as live strategy candidates.
+- External synced Binance strategies can appear in the leaderboard and be used as copy/live candidates.
 
 ## 7. Meme Scanner
 
