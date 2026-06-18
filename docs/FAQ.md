@@ -28,6 +28,10 @@ PREX supports user-configured Binance and OKX live strategy execution workflows.
 
 Yes. The live strategy setup can show both the user's saved backtest strategies and public leaderboard strategies. Users still configure their own Binance or OKX API credentials before enabling execution.
 
+## Does PREX work on mobile browsers?
+
+Yes. PREX supports mobile web browsing, with responsive layout fixes for dense pages so content is less likely to be clipped or shown incompletely on phones.
+
 ## Does PREX custody user funds?
 
 PREX is designed around user-controlled wallets and user-controlled exchange accounts. Product details may evolve, but the goal is to reduce trading friction without forcing users into a fully custodial flow.

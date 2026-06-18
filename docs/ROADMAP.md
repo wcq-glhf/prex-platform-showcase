@@ -9,7 +9,7 @@ This roadmap is product-facing and may change as the platform evolves.
 - Improve live-strategy execution reliability and exchange compatibility.
 - Improve Meme Scanner ranking quality and risk labeling.
 - Add more token detail signals.
-- Improve mobile layout for dense trading and scanner views.
+- Continue refining mobile layout for dense trading, strategy, and scanner views.
 - Add more public product screenshots and videos.
 
 ## Strategy Tooling

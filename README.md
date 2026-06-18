@@ -19,6 +19,7 @@ PREX helps users discover, analyze, test, and trade market opportunities from on
 - Includes a BTC/ETH liquidity and liquidation-pressure map for futures research.
 - Includes referral and fee-accounting workflows for community growth.
 - Tracks product usage, feature traffic, and trading volume through an owner-only analytics board.
+- Supports mobile web browsing with responsive layout fixes for dense trading and scanner views.
 
 ## Product Preview
 
@@ -52,6 +53,7 @@ PREX helps users discover, analyze, test, and trade market opportunities from on
 | Liquidity Map | Estimate BTC/ETH futures liquidity and liquidation-pressure zones across major exchanges. |
 | Invite System | User invite links, fee discounts, and reward accounting. |
 | Analytics Board | Owner-only traffic, DAU, page view, visitor, IP-hash, feature usage, and trading-volume statistics. |
+| Mobile Web | Responsive mobile browsing support for dense PREX pages, reducing clipped or incomplete content on phones. |
 
 ## Why It Exists
 
@@ -80,6 +82,7 @@ PREX 是一个面向预测市场、合约策略和链上机会发现的 AI 交�
 - 提供 BTC / ETH 合约流动性和清算压力估算地图；
 - 支持邀请返佣和用户增长体系；
 - 提供站长数据看板，观察 DAU、访问量、页面浏览、IP 统计、功能使用和交易量等。
+- 支持手机网页端浏览，已修复移动端页面展示不全的问题。
 
 ## Documentation
 

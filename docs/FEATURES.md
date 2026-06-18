@@ -168,3 +168,13 @@ Recent improvements:
 - Markets display translations.
 - Portfolio market-name translation.
 - Auth and invite page copy improvements.
+
+## 13. Mobile Web Experience
+
+PREX supports mobile browser access for core product surfaces.
+
+Recent improvements:
+
+- Responsive layout fixes for phone-sized screens.
+- Better handling of dense trading, strategy, analytics, and scanner content on mobile.
+- Reduced horizontal clipping and incomplete content display on small screens.
