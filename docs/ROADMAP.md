@@ -14,9 +14,9 @@ This roadmap is product-facing and may change as the platform evolves.
 
 ## Global Markets
 
-- Expand market coverage beyond crypto and prediction markets.
+- Expand market coverage beyond prediction markets and digital-asset markets.
 - Add more supported US stock perpetual symbols where exchange support is available.
-- Improve market switching between prediction markets, crypto strategies, stock perps, and research tools.
+- Improve market switching between prediction markets, exchange-traded strategies, stock perps, and research tools.
 - Build a clearer unified portfolio and order view across connected accounts.
 - Add better risk summaries across market types.
 
@@ -56,7 +56,7 @@ This roadmap is product-facing and may change as the platform evolves.
 
 ## Long Term
 
-- Multi-market AI trading agent platform across crypto, prediction markets, equities, and other liquid markets.
+- Multi-market AI trading agent platform across prediction markets, equities, digital assets, and other liquid markets.
 - Strategy marketplace and copy-trading workflows.
 - AI-assisted market research and strategy generation from natural language.
 - Unified portfolio and risk view across prediction markets, exchanges, and on-chain opportunities.

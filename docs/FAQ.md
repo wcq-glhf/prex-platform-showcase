@@ -10,11 +10,11 @@ Open [https://prex.best](https://prex.best).
 
 ## What is PREX?
 
-PREX is an AI trading agent platform for global markets, starting with crypto. It helps users discover opportunities, evaluate strategies, run live execution, and manage risk across prediction markets, crypto strategies, US stock perpetuals, and on-chain research tools.
+PREX is an AI trading agent platform for global markets. It helps users discover opportunities, evaluate strategies, run live execution, and manage risk across prediction markets, exchange-traded strategies, US stock perpetuals, and on-chain research tools.
 
 ## What markets does PREX currently support?
 
-PREX currently includes prediction-market workflows, crypto strategy research and execution workflows, US stock perpetuals through supported exchange APIs, and on-chain token research through the Meme Scanner.
+PREX currently includes prediction-market workflows, exchange-traded strategy research and execution workflows, US stock perpetuals through supported exchange APIs, and on-chain token research through the Meme Scanner.
 
 ## Does PREX support US stock trading?
 
@@ -26,7 +26,7 @@ Users can view supported stock-perp markets, inspect live prices and candlestick
 
 ## Does PREX support backtesting?
 
-Yes. PREX supports natural-language strategy descriptions and factor-based backtesting for exchange-traded crypto strategies. The showcase repository only describes the product surface and does not include the implementation.
+Yes. PREX supports natural-language strategy descriptions and factor-based backtesting for exchange-traded strategies. The showcase repository only describes the product surface and does not include the implementation.
 
 ## Does PREX support live trading?
 

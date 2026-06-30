@@ -60,7 +60,7 @@ Current capabilities:
 
 ## 5. Backtesting
 
-PREX supports strategy research for exchange-traded crypto strategies.
+PREX supports strategy research for exchange-traded strategies.
 
 Current capabilities:
 
@@ -80,7 +80,7 @@ PREX supports user-controlled live strategy execution through exchange API crede
 Current capabilities:
 
 - Strategy library with live strategy cards and copy-trading setup.
-- Crypto and stock-perp strategy filters.
+- Digital-asset and stock-perp strategy filters.
 - Binance and OKX API credential configuration.
 - Credential test flow before enabling live strategies.
 - Encrypted credential storage in the PREX backend.
