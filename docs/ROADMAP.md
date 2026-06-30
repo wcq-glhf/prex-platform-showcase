@@ -4,23 +4,30 @@ This roadmap is product-facing and may change as the platform evolves.
 
 ## Near Term
 
-- Improve Polymarket trading flow and reduce wallet friction.
-- Improve natural-language strategy parsing for backtests.
-- Improve live-strategy execution reliability and exchange compatibility.
-- Improve Meme Scanner ranking quality and risk labeling.
-- Add more token detail signals.
-- Continue refining mobile layout for dense trading, strategy, and scanner views.
-- Add more public product screenshots and videos.
+- Improve the US stock perpetuals trading workspace, including more symbols, clearer exchange availability, and better order-state feedback.
+- Improve prediction-market discovery and trade execution flows.
+- Improve natural-language strategy parsing for backtests and strategy creation.
+- Improve live-strategy execution reliability across Binance and OKX.
+- Improve copy-trading setup, allocation estimates, and risk controls.
+- Continue refining mobile layouts for dense trading, strategy, portfolio, and scanner views.
+- Add more public product screenshots, demo videos, and strategy examples.
+
+## Global Markets
+
+- Expand market coverage beyond crypto and prediction markets.
+- Add more supported US stock perpetual symbols where exchange support is available.
+- Improve market switching between prediction markets, crypto strategies, stock perps, and research tools.
+- Build a clearer unified portfolio and order view across connected accounts.
+- Add better risk summaries across market types.
 
 ## Strategy Tooling
 
 - Faster data access for larger backtests.
-- More strategy templates and strategy-description examples.
+- More strategy templates and natural-language strategy examples.
 - Better comparison between backtest results and live execution.
 - More robust live strategy dashboards.
-- More exchange and symbol-universe controls.
-- More market categories beyond crypto and prediction markets.
 - Better handling of fees, slippage, order cancellation, rebalance drift, and market settlement.
+- Improve fixed-target-weight and external live strategy support.
 
 ## Live Trading And Copy Trading
 
@@ -29,15 +36,15 @@ This roadmap is product-facing and may change as the platform evolves.
 - Build a stronger strategy leaderboard based on live performance.
 - Expand copy-trading subscription controls.
 - Add user-facing strategy audit history.
+- Improve Binance/OKX compatibility for edge cases such as exchange agreements, precision, minimum order size, and canceled orders.
 
-## Meme Scanner
+## Research Tools
 
-- Add more chains and token sources.
-- Add watchlists.
-- Add alerting for score changes and liquidity shifts.
-- Add richer holder and cluster analysis.
-- Add social mention history.
-- Add stronger risk labels for suspicious token structures.
+- Improve Meme Scanner ranking quality and risk labeling.
+- Add more token detail signals.
+- Add watchlists and alerts for token score, liquidity, and holder-risk changes.
+- Improve liquidity and liquidation-pressure maps for futures research.
+- Add richer market research views for AI-assisted opportunity discovery.
 
 ## Growth And Community
 
@@ -49,8 +56,8 @@ This roadmap is product-facing and may change as the platform evolves.
 
 ## Long Term
 
-- Multi-platform prediction-market aggregation.
-- Copy-trading and strategy marketplace workflows.
-- AI-assisted market research.
-- Unified portfolio and risk view across prediction markets and on-chain opportunities.
+- Multi-market AI trading agent platform across crypto, prediction markets, equities, and other liquid markets.
+- Strategy marketplace and copy-trading workflows.
+- AI-assisted market research and strategy generation from natural language.
+- Unified portfolio and risk view across prediction markets, exchanges, and on-chain opportunities.
 - Advanced analytics for feature adoption, trading volume, and strategy retention.

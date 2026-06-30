@@ -1,6 +1,6 @@
 # prex-platform-showcase
 
-PREX is an AI trading terminal for prediction markets, crypto strategy research, and on-chain opportunity discovery.
+PREX is an AI trading agent platform for global markets, starting with crypto.
 
 Live product: [https://prex.best](https://prex.best)
 
@@ -8,24 +8,33 @@ Live product: [https://prex.best](https://prex.best)
 
 ## What PREX Does
 
-PREX helps users discover, analyze, test, and trade market opportunities from one interface.
+PREX helps users discover markets, evaluate strategies, run live execution, and manage risk from one interface.
 
-- Aggregates prediction-market data and trading workflows.
-- Supports Polymarket-focused market browsing, portfolio views, and trading UX.
-- Provides natural-language strategy backtesting for Binance USDT perpetuals.
-- Supports user-configured Binance / OKX live strategy execution workflows for saved backtests and public leaderboard strategies.
-- Tracks real live-strategy performance for strategy ranking, copy-trading exploration, and live setup discovery.
-- Adds a Meme Scanner for detecting high-momentum small-cap tokens using on-chain and social signals.
-- Includes a BTC/ETH liquidity and liquidation-pressure map for futures research.
-- Includes referral and fee-accounting workflows for community growth.
-- Tracks product usage, feature traffic, and trading volume through an owner-only analytics board.
-- Supports mobile web browsing with responsive layout fixes for dense trading and scanner views.
+- Provides an AI-assisted trading workflow for global market opportunities, starting with crypto and expanding into prediction markets and US stock perpetuals.
+- Aggregates prediction-market data and trading flows.
+- Adds a US stock perpetuals workspace with live prices, interactive candlesticks, leverage controls, market and limit orders, position closing, open orders, and trade history.
+- Supports natural-language strategy backtesting for exchange-traded crypto strategies.
+- Supports Binance / OKX API credential setup for user-controlled live strategy execution.
+- Tracks live strategy performance, strategy rankings, and copy-trading setup flows.
+- Separates crypto strategies and stock-perp strategies in the strategy library.
+- Shows connected exchange positions inside the portfolio experience.
+- Includes a Meme Scanner for on-chain token discovery and risk screening.
+- Includes liquidity and liquidation-pressure tools for futures research.
+- Includes referral, product-update, support, analytics, and mobile web workflows.
 
 ## Product Preview
 
 ### Home
 
 ![PREX Home](assets/screenshots/home.png)
+
+### US Stock Perpetuals
+
+![PREX Stock Perps](assets/screenshots/stock-perps.png)
+
+### Strategy Library And Copy Trading
+
+![PREX Strategies](assets/screenshots/strategies.png)
 
 ### Prediction Markets
 
@@ -35,54 +44,50 @@ PREX helps users discover, analyze, test, and trade market opportunities from on
 
 ![PREX Meme Scanner](assets/screenshots/meme-scanner.png)
 
-### Token Detail With K-Line
-
-![PREX Meme Token Detail](assets/screenshots/meme-token-detail.png)
-
 ## Core Modules
 
 | Module | Description |
 | --- | --- |
-| Markets | Browse active prediction markets, search/filter opportunities, and inspect tradable markets. |
-| Trading UX | Connect wallet, manage trading flow, and submit Polymarket orders through PREX. |
-| Portfolio | Review user positions and wallet-linked trading state. |
-| Backtesting | Describe a futures strategy in natural language and run factor-based backtests on Binance USDT perpetual data. |
-| Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution from saved backtests or public leaderboard strategies, with exchange minimum-order safeguards. |
-| Strategy Ranking | Display real live-traded strategies and practical performance signals, and expose public strategies as copy/live candidates. |
-| Meme Scanner | Detect on-chain meme/token opportunities using liquidity, turnover, market cap, social heat, risk concentration, and K-line data. |
-| Liquidity Map | Estimate BTC/ETH futures liquidity and liquidation-pressure zones across major exchanges. |
-| Invite System | User invite links, fee discounts, and reward accounting. |
-| Analytics Board | Owner-only traffic, DAU, page view, visitor, IP-hash, feature usage, and trading-volume statistics. |
-| Mobile Web | Responsive mobile browsing support for dense PREX pages, reducing clipped or incomplete content on phones. |
+| Markets | Browse prediction markets and US stock perpetuals from one market surface. |
+| Stock Perps | Trade supported US stock perpetual contracts through connected exchange APIs with leverage, market/limit orders, close flows, open orders, and trade history. |
+| Trading UX | Connect wallet or exchange account, manage order flow, and reduce manual switching between tools. |
+| Portfolio | Review prediction-market positions and connected exchange positions in one place. |
+| Backtesting | Describe a strategy in natural language and run factor-based backtests on exchange data. |
+| Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution from saved backtests, external live strategies, or public candidates. |
+| Strategy Library | Compare strategy performance, rankings, capital, drawdown, and copy-trading setup across crypto and stock-perp strategies. |
+| Copy Trading | Let users follow supported strategies through their own connected exchange accounts, with allocation and risk controls. |
+| Meme Scanner | Detect on-chain token opportunities using liquidity, turnover, market cap, social heat, holder concentration, and risk signals. |
+| Liquidity Tools | Estimate futures liquidity and liquidation-pressure zones across major venues. |
+| Product Updates | Notification bell for recent product changes, releases, and strategy workflow updates. |
+| Analytics Board | Owner-only traffic, DAU, feature usage, and trading-volume statistics. |
+| Mobile Web | Responsive mobile browsing support for dense trading, strategy, and scanner views. |
 
 ## Why It Exists
 
-Prediction markets and crypto markets are fragmented. Users often need to switch between several sites, wallets, exchange tools, order books, forecasts, strategy scripts, and social feeds before making a decision.
+Most users cannot monitor global markets all day, build executable strategies, evaluate signals transparently, and manage risk across wallets and exchanges at the same time.
 
 PREX is designed to reduce that workflow into one product surface:
 
 - discover the market,
-- inspect the data,
-- test the edge,
-- execute with fewer manual steps,
-- review results.
+- inspect live data,
+- evaluate strategy performance,
+- turn ideas into strategy workflows,
+- execute or copy trades through connected accounts,
+- review positions, orders, and results.
 
 ## 中文简介
 
-PREX 是一个面向预测市场、合约策略和链上机会发现的 AI 交易终端。
+PREX 是一个面向全球市场的 AI Trading Agent 平台，从 Crypto 切入，并逐步扩展到预测市场、美股合约和其他高流动性市场。
 
 当前产品重点：
 
-- 聚合预测市场信息和交易流程；
-- 优化 Polymarket 交易体验；
-- 支持用自然语言描述合约策略，并进行 Binance USDT 永续回测；
-- 支持用户配置 Binance / OKX API 后，对自己的回测策略或排行榜公开策略进行自控实盘策略执行；
-- 支持真实实盘策略排行榜、跟单功能探索和 live 策略候选发现；
-- 增加妖币检测器，用链上数据、社交热度、成交换手、市值结构和风险集中度给小币种打分；
-- 提供 BTC / ETH 合约流动性和清算压力估算地图；
-- 支持邀请返佣和用户增长体系；
-- 提供站长数据看板，观察 DAU、访问量、页面浏览、IP 统计、功能使用和交易量等。
-- 支持手机网页端浏览，已修复移动端页面展示不全的问题。
+- 聚合预测市场和美股合约交易界面；
+- 支持美股合约实时价格、K 线、杠杆、市价/限价、平仓、委托和历史交易；
+- 支持自然语言策略回测；
+- 支持 Binance / OKX API 配置和用户自控实盘策略执行；
+- 支持策略库、排行榜、跟单设置、Crypto / 美股合约策略分类；
+- 支持投资组合中展示预测市场持仓和交易所持仓；
+- 提供妖币检测、清算/流动性工具、产品更新、客服、数据看板和移动端适配。
 
 ## Documentation
 
@@ -92,7 +97,7 @@ PREX 是一个面向预测市场、合约策略和链上机会发现的 AI 交�
 
 ## Contact
 
-Interested in PREX, prediction markets, strategy tooling, or integrations?
+Interested in PREX, AI trading agents, strategy tooling, or market infrastructure?
 
 - Website: [https://prex.best](https://prex.best)
 - X: [https://x.com/No_tariff3](https://x.com/No_tariff3)

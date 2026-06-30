@@ -2,7 +2,19 @@
 
 This document describes the public-facing PREX product capabilities. It intentionally avoids implementation details and source code.
 
-## 1. Prediction Market Surface
+## 1. Global Market Surface
+
+PREX is moving from a single-market trading tool toward an AI trading agent platform for global markets.
+
+Current capabilities:
+
+- Unified market navigation for prediction markets and US stock perpetuals.
+- Cleaner top-level navigation for Markets, Strategies, Tools, Portfolio, Leaderboard, Settings, and API.
+- Product update notification bell for recent feature changes.
+- English and Chinese UI support across core surfaces.
+- Mobile web improvements for dense trading and strategy pages.
+
+## 2. Prediction Markets
 
 PREX provides a cleaner interface for discovering and inspecting prediction markets.
 
@@ -10,38 +22,45 @@ Current capabilities:
 
 - Market browsing and search.
 - Active market filtering.
-- Multilingual display support.
-- Market translation support.
-- Trading-focused layout for scanning price, volume, and market state.
-- World Cup and event-themed market discovery support.
+- Multilingual display and translation support.
+- Trading-focused layout for scanning price, volume, liquidity, and market state.
+- Event-themed discovery support.
+- Polymarket-oriented trading and portfolio workflows.
 
-## 2. Polymarket Trading UX
+## 3. US Stock Perpetuals
 
-PREX is built around simplifying Polymarket usage.
+PREX now includes a Stock Perps workspace for supported US stock perpetual contracts.
 
 Current capabilities:
 
-- Wallet connection.
-- Trading flow inside PREX without forcing users to jump to Polymarket for every step.
-- Support for user-controlled wallets.
-- Builder fee attribution support.
-- Referral-aware trading workflow.
-- Dry-run guard for safer testing environments.
+- Supported markets include major US technology, ETF, and high-liquidity stock-perp symbols where exchange support exists.
+- Live quote and exchange-rule lookup for Binance and OKX where available.
+- Interactive candlestick chart with interval switching, hover data, zoom, and drag.
+- Market and limit order entry.
+- Open and close flows.
+- Leverage input.
+- Exchange account selector.
+- Open limit order display and cancellation.
+- Trade history and order-status display.
+- Chinese and English exchange error messaging for common Binance/OKX cases.
 
-## 3. Portfolio
+## 4. Portfolio
 
 PREX includes a portfolio view for user positions and trading state.
 
 Current capabilities:
 
-- Position-focused layout.
-- Wallet-linked state.
-- Market names and portfolio content with multilingual display improvements.
 - Prediction-market position visibility.
+- Connected exchange swap positions.
+- Exchange account filtering.
+- Position search by symbol, exchange, and direction.
+- Market and limit close-position workflow.
+- Position value, entry value, mark price, unrealized PnL, and direction display.
+- Multilingual market-name and position display improvements.
 
-## 4. Backtesting
+## 5. Backtesting
 
-PREX supports strategy research for crypto futures.
+PREX supports strategy research for exchange-traded crypto strategies.
 
 Current capabilities:
 
@@ -54,39 +73,39 @@ Current capabilities:
 - Background backtest task mode for heavier jobs.
 - Login-required access for running backtests.
 
-## 5. Live Strategy Execution
+## 6. Strategy Library And Live Execution
 
 PREX supports user-controlled live strategy execution through exchange API credentials.
 
 Current capabilities:
 
+- Strategy library with live strategy cards and copy-trading setup.
+- Crypto and stock-perp strategy filters.
 - Binance and OKX API credential configuration.
 - Credential test flow before enabling live strategies.
-- Encrypted credential storage in PREX backend.
+- Encrypted credential storage in the PREX backend.
 - Trading-only permission guidance; withdrawal permission is not required.
 - Exchange minimum-order and precision checks.
-- One-running-strategy-per-account guard to avoid conflicting rebalances.
+- Fixed-target-weight strategy support for stock-perp beta strategies.
+- External live strategy sync into PREX for tracking, ranking, and copy-trading setup.
 - Stop-and-close-position workflow when switching strategies.
 - Scheduled live strategy execution based on candle timing.
-- Live strategy status, recent actions, and execution notes.
-- Live setup can load both user-saved backtest strategies and public leaderboard strategies.
-- Public leaderboard strategies can be selected for Binance or OKX execution after the user configures their own API credentials.
 
-## 6. Strategy Ranking And Copy-Trading Foundation
+## 7. Strategy Ranking And Copy Trading
 
 PREX is building toward a practical strategy marketplace and copy-trading layer.
 
 Current capabilities:
 
 - Strategy leaderboard focused on real live-traded strategies.
-- Mock strategies are excluded from live ranking.
-- Live strategy notional and follower-style metadata.
-- Copy-trading subscription service foundation.
+- Live strategy performance, ROI, drawdown, capital, and follower-style metadata.
+- Copy-trading subscription setup.
+- Allocation, leverage, slippage, and loss-cap controls.
 - Strategy candidate saving from backtest results.
-- Public copy/live strategies are exposed as live strategy candidates.
-- External synced Binance strategies can appear in the leaderboard and be used as copy/live candidates.
+- Public copy/live strategies exposed as executable candidates.
+- Exchange-side external strategies can appear in the leaderboard and copy-trading flow.
 
-## 7. Meme Scanner
+## 8. Meme Scanner
 
 The Meme Scanner is designed for small-cap token discovery and risk screening.
 
@@ -108,9 +127,9 @@ Views:
 - Detail page with token profile, liquidity pools, top traders, risk structure, and K-line chart.
 - K-line chart supports interval switching, drag, zoom, reset, and hover tooltip.
 
-## 8. Liquidity And Liquidation-Pressure Map
+## 9. Liquidity And Liquidation-Pressure Tools
 
-PREX includes a BTC/ETH futures research view for estimating liquidity and liquidation-pressure zones.
+PREX includes futures research tools for estimating liquidity and liquidation-pressure zones.
 
 Current capabilities:
 
@@ -121,55 +140,21 @@ Current capabilities:
 - Mouse hover values and zoom/drag interaction.
 - Designed as a trading research aid rather than an exchange account-level liquidation feed.
 
-## 9. Invite And Referral
+## 10. Invite, Analytics, Updates, And Support
 
-PREX includes a user invite system for community growth.
+PREX includes lightweight growth, analytics, and support workflows.
 
 Current capabilities:
 
-- Random invite codes.
-- Personal invite links.
+- Random invite codes and personal invite links.
 - Invited-user tracking.
 - Fee-discount and reward-accounting logic.
-- Withdrawal threshold for referral rewards.
-
-## 10. Analytics Board
-
-PREX includes an owner-only analytics board.
-
-Current capabilities:
-
-- Password-gated access.
-- Page view tracking.
-- DAU and visitor reporting.
-- IP-hash based counts.
-- Top page statistics.
-- Recent traffic summaries.
-- Trading-volume statistics for CEX, Polymarket, live, dry-run, paper, and test modes.
-- Feature traffic tracking for backtest and live strategy surfaces.
-
-## 11. Product Updates And Support
-
-PREX includes lightweight user communication tools.
-
-Current capabilities:
-
+- Owner-only analytics board.
+- Page view, DAU, visitor, IP-hash, feature usage, and trading-volume reporting.
 - Notification bell for product updates.
 - Customer support widget with Telegram contact.
-- Public-facing update notes for recent feature changes.
 
-## 12. Multilingual Experience
-
-PREX supports English and Chinese UI text in the main product areas.
-
-Recent improvements:
-
-- Navigation translations.
-- Markets display translations.
-- Portfolio market-name translation.
-- Auth and invite page copy improvements.
-
-## 13. Mobile Web Experience
+## 11. Mobile Web Experience
 
 PREX supports mobile browser access for core product surfaces.
 

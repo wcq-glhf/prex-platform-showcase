@@ -8,25 +8,37 @@ No. This repository is only a product showcase. It contains screenshots, product
 
 Open [https://prex.best](https://prex.best).
 
-## What markets does PREX focus on?
+## What is PREX?
 
-PREX currently focuses on prediction-market workflows, especially Polymarket, plus crypto futures strategy research and on-chain opportunity detection through the Meme Scanner.
+PREX is an AI trading agent platform for global markets, starting with crypto. It helps users discover opportunities, evaluate strategies, run live execution, and manage risk across prediction markets, crypto strategies, US stock perpetuals, and on-chain research tools.
 
-## What is the Meme Scanner?
+## What markets does PREX currently support?
 
-The Meme Scanner is a token discovery and risk-screening interface. It ranks small-cap tokens using trading activity, liquidity, turnover, momentum, social heat, holder structure, and risk-concentration signals.
+PREX currently includes prediction-market workflows, crypto strategy research and execution workflows, US stock perpetuals through supported exchange APIs, and on-chain token research through the Meme Scanner.
+
+## Does PREX support US stock trading?
+
+PREX supports US stock perpetual contracts where they are available on connected exchanges. These are derivative contracts, not spot stock ownership.
+
+## What can users do in the Stock Perps workspace?
+
+Users can view supported stock-perp markets, inspect live prices and candlesticks, choose an exchange account, set leverage, place market or limit orders, close positions, view open orders, cancel active limit orders, and review trade history.
 
 ## Does PREX support backtesting?
 
-Yes. PREX supports natural-language strategy descriptions and factor-based backtesting for Binance USDT perpetuals. The showcase repository only describes the product surface and does not include the implementation.
+Yes. PREX supports natural-language strategy descriptions and factor-based backtesting for exchange-traded crypto strategies. The showcase repository only describes the product surface and does not include the implementation.
 
 ## Does PREX support live trading?
 
 PREX supports user-configured Binance and OKX live strategy execution workflows. Users control their own exchange API credentials, and withdrawal permissions are not required.
 
-## Can users run a public leaderboard strategy?
+## Can users copy or run public strategies?
 
-Yes. The live strategy setup can show both the user's saved backtest strategies and public leaderboard strategies. Users still configure their own Binance or OKX API credentials before enabling execution.
+Yes. The strategy library can show PREX strategies, external live strategies, stock-perp beta strategies, saved backtests, and public candidates. Users still configure their own exchange API credentials before enabling live execution or copy-trading.
+
+## What is the Meme Scanner?
+
+The Meme Scanner is a token discovery and risk-screening interface. It ranks small-cap tokens using trading activity, liquidity, turnover, momentum, social heat, holder structure, and risk-concentration signals.
 
 ## Does PREX work on mobile browsers?
 
