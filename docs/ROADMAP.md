@@ -4,7 +4,8 @@ This roadmap is product-facing and may change as the platform evolves.
 
 ## Near Term
 
-- Improve the US stock perpetuals trading workspace, including more symbols, clearer exchange availability, and better order-state feedback.
+- Improve the crypto and US stock contract trading workspaces, including more symbols, clearer exchange availability, and better order-state feedback.
+- Improve PREX AI analysis quality with richer market context, clearer uncertainty handling, and more useful quick-fill trade parameters.
 - Improve prediction-market discovery and trade execution flows.
 - Improve natural-language strategy parsing for backtests and strategy creation.
 - Improve live-strategy execution reliability across Binance and OKX.
@@ -15,7 +16,7 @@ This roadmap is product-facing and may change as the platform evolves.
 ## Global Markets
 
 - Expand market coverage beyond prediction markets and digital-asset markets.
-- Add more supported US stock perpetual symbols where exchange support is available.
+- Add more supported US stock and crypto contract symbols where exchange support is available.
 - Improve market switching between prediction markets, exchange-traded strategies, stock perps, and research tools.
 - Build a clearer unified portfolio and order view across connected accounts.
 - Add better risk summaries across market types.
@@ -24,6 +25,7 @@ This roadmap is product-facing and may change as the platform evolves.
 
 - Faster data access for larger backtests.
 - More strategy templates and natural-language strategy examples.
+- Improve AI-assisted strategy drafting while keeping the final backtest parser deterministic and auditable.
 - Better comparison between backtest results and live execution.
 - More robust live strategy dashboards.
 - Better handling of fees, slippage, order cancellation, rebalance drift, and market settlement.

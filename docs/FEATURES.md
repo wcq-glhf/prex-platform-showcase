@@ -8,7 +8,7 @@ PREX is moving from a single-market trading tool toward an AI trading agent plat
 
 Current capabilities:
 
-- Unified market navigation for prediction markets and US stock perpetuals.
+- Unified market navigation for prediction markets, crypto contracts, and US stock contracts.
 - Cleaner top-level navigation for Markets, Strategies, Tools, Portfolio, Leaderboard, Settings, and API.
 - Product update notification bell for recent feature changes.
 - English and Chinese UI support across core surfaces.
@@ -27,14 +27,15 @@ Current capabilities:
 - Event-themed discovery support.
 - Polymarket-oriented trading and portfolio workflows.
 
-## 3. US Stock Perpetuals
+## 3. Crypto And US Stock Contracts
 
-PREX now includes a Stock Perps workspace for supported US stock perpetual contracts.
+PREX now includes contract trading workspaces for supported crypto and US stock contract markets.
 
 Current capabilities:
 
 - Supported markets include major US technology, ETF, and high-liquidity stock-perp symbols where exchange support exists.
-- Live quote and exchange-rule lookup for Binance and OKX where available.
+- Supported crypto markets include major liquid contract symbols where exchange support exists.
+- Live quote and exchange-rule lookup for Binance, OKX, and Hyperliquid-oriented surfaces where available.
 - Interactive candlestick chart with interval switching, hover data, zoom, and drag.
 - Market and limit order entry.
 - Open and close flows.
@@ -43,6 +44,10 @@ Current capabilities:
 - Open limit order display and cancellation.
 - Trade history and order-status display.
 - Chinese and English exchange error messaging for common Binance/OKX cases.
+- Optional take-profit and stop-loss inputs for contract order entry.
+- PREX AI short-term analysis card with direction, confidence, structure evidence, support/resistance context, and quick-fill trade parameters.
+- Crypto analysis can include BTC benchmark context, market flow, large-order snapshots, funding rates, and BlockBeats news.
+- US stock contract analysis uses stock-specific long/short thresholds and treats short setups more strictly.
 
 ## 4. Portfolio
 
@@ -65,13 +70,15 @@ PREX supports strategy research for exchange-traded strategies.
 Current capabilities:
 
 - Natural-language strategy input.
+- AI-assisted strategy drafting with user-configured model providers.
+- PREX-side strategy translation fallback for ambiguous natural-language strategy text.
 - Factor-based strategy parsing and backtest execution.
 - Binance USDT perpetual backtesting data.
 - Supported backtest intervals include 1h, 4h, and 1d.
 - Symbol presets for major coins, popular coins, custom selections, and broad high-liquidity universes.
 - Backtest result views for equity curve, return, loss limit, rebalance history, and data coverage.
 - Background backtest task mode for heavier jobs.
-- Login-required access for running backtests.
+- Guest backtest quota before login is required.
 
 ## 6. Strategy Library And Live Execution
 
@@ -79,7 +86,7 @@ PREX supports user-controlled live strategy execution through exchange API crede
 
 Current capabilities:
 
-- Strategy library with live strategy cards and copy-trading setup.
+- Strategy library with live strategy rows, detail pages, performance charts, and copy-trading setup.
 - Digital-asset and stock-perp strategy filters.
 - Binance and OKX API credential configuration.
 - Credential test flow before enabling live strategies.
@@ -90,6 +97,7 @@ Current capabilities:
 - External live strategy sync into PREX for tracking, ranking, and copy-trading setup.
 - Stop-and-close-position workflow when switching strategies.
 - Scheduled live strategy execution based on candle timing.
+- Strategy detail pages for live and saved strategies, including capital, performance, drawdown, and copy entry points.
 
 ## 7. Strategy Ranking And Copy Trading
 
@@ -98,12 +106,13 @@ PREX is building toward a practical strategy marketplace and copy-trading layer.
 Current capabilities:
 
 - Strategy leaderboard focused on real live-traded strategies.
-- Live strategy performance, ROI, drawdown, capital, and follower-style metadata.
+- Live strategy performance, ROI, drawdown, capital, order activity, and follower-style metadata.
 - Copy-trading subscription setup.
 - Allocation, leverage, slippage, and loss-cap controls.
 - Strategy candidate saving from backtest results.
 - Public copy/live strategies exposed as executable candidates.
 - Exchange-side external strategies can appear in the leaderboard and copy-trading flow.
+- Historical external strategy records can remain visible after real trading activity has occurred.
 
 ## 8. Meme Scanner
 

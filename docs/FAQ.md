@@ -14,19 +14,19 @@ PREX is an AI trading agent platform for global markets. It helps users discover
 
 ## What markets does PREX currently support?
 
-PREX currently includes prediction-market workflows, exchange-traded strategy research and execution workflows, US stock perpetuals through supported exchange APIs, and on-chain token research through the Meme Scanner.
+PREX currently includes prediction-market workflows, crypto contract and US stock contract trading surfaces, exchange-traded strategy research and execution workflows, and on-chain token research through the Meme Scanner.
 
 ## Does PREX support US stock trading?
 
 PREX supports US stock perpetual contracts where they are available on connected exchanges. These are derivative contracts, not spot stock ownership.
 
-## What can users do in the Stock Perps workspace?
+## What can users do in the contract trading workspace?
 
-Users can view supported stock-perp markets, inspect live prices and candlesticks, choose an exchange account, set leverage, place market or limit orders, close positions, view open orders, cancel active limit orders, and review trade history.
+Users can view supported crypto and stock contract markets, inspect live prices and candlesticks, choose an exchange account, set leverage, place market or limit orders, close positions, view open orders, cancel active limit orders, review trade history, and optionally use PREX AI analysis to fill direction and risk parameters.
 
 ## Does PREX support backtesting?
 
-Yes. PREX supports natural-language strategy descriptions and factor-based backtesting for exchange-traded strategies. The showcase repository only describes the product surface and does not include the implementation.
+Yes. PREX supports natural-language strategy descriptions, AI-assisted strategy drafting, and factor-based backtesting for exchange-traded strategies. The showcase repository only describes the product surface and does not include the implementation.
 
 ## Does PREX support live trading?
 
