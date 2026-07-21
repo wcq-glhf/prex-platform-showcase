@@ -5,7 +5,8 @@ This changelog summarizes public product progress. It does not include source co
 ## 2026-07-21
 
 - Updated the US stock perpetuals product screenshot to show the full candlestick, order-entry, and PREX AI workspace.
-- Added a real natural-language backtest result screenshot with return, drawdown, cost, equity curve, data coverage, and recent rebalances.
+- Added the multi-LLM strategy-generation interface, showing OpenAI, Anthropic, DeepSeek, MiniMax, and Gemini provider selection.
+- Refreshed the real backtest result screenshot with a higher-return, lower-drawdown market-neutral example, while retaining costs, the equity curve, data coverage, and rebalance records.
 
 ## 2026-07-12
 

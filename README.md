@@ -37,9 +37,17 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 
 ![PREX Strategies](assets/screenshots/strategies.png)
 
+### Multi-LLM Strategy Generation
+
+![PREX Multi-LLM Strategy Generation](assets/screenshots/llm-strategy-generation.png)
+
+PREX can generate parseable strategies through OpenAI, Anthropic, DeepSeek, MiniMax, or Gemini before running the backtest workflow.
+
 ### Natural-Language Backtest Results
 
 ![PREX Backtest Results](assets/screenshots/backtest-results.png)
+
+Illustrative historical market-neutral backtest from March 1 to July 21, 2026, including fees, slippage, data coverage, and rebalance records. Past performance does not guarantee future results.
 
 ### Prediction Markets
 
