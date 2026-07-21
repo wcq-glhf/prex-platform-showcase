@@ -2,6 +2,11 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-07-21
+
+- Updated the US stock perpetuals product screenshot to show the full candlestick, order-entry, and PREX AI workspace.
+- Added a real natural-language backtest result screenshot with return, drawdown, cost, equity curve, data coverage, and recent rebalances.
+
 ## 2026-07-12
 
 - Reframed PREX as an AI trading agent platform for global markets, with crypto, prediction markets, US stock contracts, and strategy execution presented under one workflow.

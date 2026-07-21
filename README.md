@@ -37,6 +37,10 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 
 ![PREX Strategies](assets/screenshots/strategies.png)
 
+### Natural-Language Backtest Results
+
+![PREX Backtest Results](assets/screenshots/backtest-results.png)
+
 ### Prediction Markets
 
 ![PREX Markets](assets/screenshots/markets.png)
