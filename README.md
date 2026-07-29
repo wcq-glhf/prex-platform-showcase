@@ -14,7 +14,9 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 - Aggregates prediction-market data and trading flows.
 - Adds crypto and US stock contract workspaces with live prices, interactive candlesticks, leverage controls, market and limit orders, position closing, open orders, and trade history.
 - Adds PREX AI analysis for supported contract markets, combining trend, structure, momentum, volume, market flow, large orders, funding, news, and benchmark context.
+- Guides new users from opportunity discovery to AI analysis, strategy validation, and user-controlled execution through a first-login launcher and a dedicated workflow page.
 - Supports natural-language strategy backtesting and AI-assisted strategy drafting for exchange-traded strategies.
+- Connects users to the PREX Telegram Bot for qualified AI opportunity alerts and follow-up notifications when a setup is invalidated or reverses.
 - Supports Binance / OKX / Hyperliquid-oriented account flows where supported by the product surface.
 - Tracks live strategy performance, strategy rankings, and copy-trading setup flows.
 - Separates digital-asset strategies and stock-contract strategies in the strategy library.
@@ -28,6 +30,24 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 ### Home
 
 ![PREX Home](assets/screenshots/home.png)
+
+### Guided First-Login Experience
+
+![PREX Guided Onboarding](assets/screenshots/onboarding.png)
+
+New users can jump directly into PREX AI analysis, natural-language backtesting, or the live strategy marketplace. Analysis and backtesting are highlighted as recommended starting points.
+
+### Discover, Analyze, Validate, And Execute
+
+![PREX Workflow Guide](assets/screenshots/workflow-guide.png)
+
+PREX presents the core journey as a clear three-step workflow: discover opportunities, analyze and validate them, then execute only under the user's control.
+
+### Telegram AI Opportunity Alerts
+
+![PREX Telegram AI Alerts](assets/screenshots/telegram-alerts.png)
+
+Users can connect `PREXSignalsBot` from Settings. PREX can deliver qualified opportunities and follow-up invalidation or reversal updates; it does not automatically place or close trades.
 
 ### US Stock Perpetuals
 
@@ -61,9 +81,11 @@ Illustrative historical market-neutral backtest from March 1 to July 21, 2026, i
 
 | Module | Description |
 | --- | --- |
+| Guided Onboarding | First-login goal selection and a dedicated three-step product workflow for analysis, backtesting, and live strategy discovery. |
 | Markets | Browse prediction markets, crypto contracts, and US stock contracts from one market surface. |
 | Contract Trading | Trade supported crypto and US stock contracts with leverage, market/limit orders, close flows, open orders, and trade history. |
 | PREX AI Analysis | Generate short-term market reads with direction, confidence, structure evidence, key levels, and quick-fill trade parameters. |
+| Telegram AI Alerts | Bind the PREX Telegram Bot to receive qualified opportunity alerts plus invalidation or reversal updates without automatic execution. |
 | Trading UX | Connect wallet or exchange account, manage order flow, and reduce manual switching between tools. |
 | Portfolio | Review prediction-market positions and connected exchange positions in one place. |
 | Backtesting | Describe a strategy in natural language, optionally use an AI model to draft it, and run factor-based backtests on exchange data. |
@@ -98,6 +120,8 @@ PREX 是一个面向全球市场的 AI Trading Agent 平台，覆盖预测市场
 - 聚合预测市场、加密货币合约和美股合约交易界面；
 - 支持合约实时价格、K 线、杠杆、市价/限价、平仓、委托、历史交易和止盈止损；
 - 支持 PREX AI 对合约市场进行短线方向、结构、资金流、大单、新闻和关键价位分析；
+- 提供首次登录小窗口与三步产品引导，帮助用户直接进入 AI 分析、自然语言回测或实盘策略广场；
+- 支持绑定 PREX Telegram Bot，推送满足统一标准的机会，并在机会失效或方向反转时发送更新；不会自动下单或平仓；
 - 支持自然语言策略回测和 AI 辅助策略生成；
 - 支持 Binance / OKX / Hyperliquid 相关账户和交易流程；
 - 支持策略库、排行榜、策略详情、跟单设置、数字资产 / 美股策略分类；

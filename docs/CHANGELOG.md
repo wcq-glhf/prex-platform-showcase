@@ -2,6 +2,18 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-07-29
+
+- Added a dedicated three-step product guide covering opportunity discovery, AI analysis and validation, and user-controlled execution.
+- Added a first-login launcher that routes users into PREX AI analysis, natural-language backtesting, or the live strategy marketplace.
+- Marked AI analysis and natural-language backtesting as the two recommended onboarding paths.
+- Renamed the strategy exploration area to Strategy Marketplace and clarified the navigation labels for Backtest and Live Management.
+- Updated the home-page View Markets action to open the US stock perpetual workspace.
+- Added authenticated Telegram Bot binding through `PREXSignalsBot`.
+- Added qualified AI opportunity notifications, test messages, status refresh, `/stop` unsubscribe, and follow-up updates for invalidated or reversed setups.
+- Reduced the guest natural-language backtest allowance from five runs to two before login is required.
+- Refreshed the public showcase screenshots for Home, Guided Onboarding, Product Workflow, Telegram AI Alerts, and Strategy Marketplace.
+
 ## 2026-07-21
 
 - Updated the US stock perpetuals product screenshot to show the full candlestick, order-entry, and PREX AI workspace.

@@ -6,6 +6,7 @@ This roadmap is product-facing and may change as the platform evolves.
 
 - Improve the crypto and US stock contract trading workspaces, including more symbols, clearer exchange availability, and better order-state feedback.
 - Improve PREX AI analysis quality with richer market context, clearer uncertainty handling, and more useful quick-fill trade parameters.
+- Expand Telegram AI alerts with clearer signal lifecycle updates, delivery history, and additional user-controlled notification channels.
 - Improve prediction-market discovery and trade execution flows.
 - Improve natural-language strategy parsing for backtests and strategy creation.
 - Improve live-strategy execution reliability across Binance and OKX.

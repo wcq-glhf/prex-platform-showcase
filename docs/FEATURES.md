@@ -14,6 +14,32 @@ Current capabilities:
 - English and Chinese UI support across core surfaces.
 - Mobile web improvements for dense trading and strategy pages.
 
+## Guided Onboarding And Product Workflow
+
+PREX now gives new users a clearer path through the product.
+
+Current capabilities:
+
+- A first-login goal launcher that can take users directly to PREX AI analysis, natural-language backtesting, or the live strategy marketplace.
+- AI analysis and natural-language backtesting are highlighted as recommended starting points.
+- A dedicated workflow page explains the journey from opportunity discovery to analysis and validation, followed by user-controlled execution.
+- The home-page market CTA opens the US stock perpetual workspace directly.
+- The strategy navigation now uses clearer Strategy Marketplace, Backtest, and Live Management labels.
+
+## Telegram AI Opportunity Alerts
+
+PREX supports account-linked Telegram notifications through `PREXSignalsBot`.
+
+Current capabilities:
+
+- One-click Bot launch from the authenticated Settings page.
+- Secure account linking through a single-use start token.
+- Qualified AI opportunity notifications.
+- Follow-up messages when a setup is invalidated or reverses.
+- Test-message delivery and connection-state refresh.
+- `/stop` unsubscribe support.
+- Analysis intervals such as 15min and 1h describe the candle context; PREX does not automatically place or close orders.
+
 ## 2. Prediction Markets
 
 PREX provides a cleaner interface for discovering and inspecting prediction markets.

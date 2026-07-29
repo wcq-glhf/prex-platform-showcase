@@ -12,6 +12,10 @@ Open [https://prex.best](https://prex.best).
 
 PREX is an AI trading agent platform for global markets. It helps users discover opportunities, evaluate strategies, run live execution, and manage risk across prediction markets, exchange-traded strategies, US stock perpetuals, and on-chain research tools.
 
+## How does PREX help a new user get started?
+
+PREX includes a first-login launcher with direct paths to AI market analysis, natural-language backtesting, and the live strategy marketplace. A separate workflow page explains the product journey from discovery to validation and user-controlled execution.
+
 ## What markets does PREX currently support?
 
 PREX currently includes prediction-market workflows, crypto contract and US stock contract trading surfaces, exchange-traded strategy research and execution workflows, and on-chain token research through the Meme Scanner.
@@ -27,6 +31,10 @@ Users can view supported crypto and stock contract markets, inspect live prices 
 ## Does PREX support backtesting?
 
 Yes. PREX supports natural-language strategy descriptions, AI-assisted strategy drafting, and factor-based backtesting for exchange-traded strategies. The showcase repository only describes the product surface and does not include the implementation.
+
+## Can PREX send AI opportunities to Telegram?
+
+Yes. An authenticated user can link `PREXSignalsBot` from Settings and receive qualified opportunities plus follow-up updates when a setup is invalidated or reverses. PREX does not automatically place or close orders from these notifications, and users can send `/stop` to unsubscribe.
 
 ## Does PREX support live trading?
 
