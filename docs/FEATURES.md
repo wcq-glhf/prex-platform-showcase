@@ -103,6 +103,9 @@ Current capabilities:
 - Supported backtest intervals include 1h, 4h, and 1d.
 - Symbol presets for major coins, popular coins, custom selections, and broad high-liquidity universes.
 - Backtest result views for equity curve, return, loss limit, rebalance history, and data coverage.
+- Professional dual-panel analytics with a left account-equity axis, right peak-drawdown axis, time scale, grid lines, and synchronized equity/drawdown curves.
+- Point-level chart hover details for timestamp, account equity, cumulative return, and drawdown.
+- Hosted bilingual API report pages with interactive equity curves, drawdowns, positions, and rebalance records.
 - Background backtest task mode for heavier jobs.
 - Guest backtest quota before login is required.
 
@@ -112,7 +115,7 @@ PREX supports user-controlled live strategy execution through exchange API crede
 
 Current capabilities:
 
-- Strategy library with live strategy rows, detail pages, performance charts, and copy-trading setup.
+- Strategy library with live strategy rows, detail pages, professional equity/drawdown charts, and copy-trading setup.
 - Digital-asset and stock-perp strategy filters.
 - Binance and OKX API credential configuration.
 - Credential test flow before enabling live strategies.
@@ -123,7 +126,7 @@ Current capabilities:
 - External live strategy sync into PREX for tracking, ranking, and copy-trading setup.
 - Stop-and-close-position workflow when switching strategies.
 - Scheduled live strategy execution based on candle timing.
-- Strategy detail pages for live and saved strategies, including capital, performance, drawdown, and copy entry points.
+- Strategy detail pages for live and saved strategies, including exchange-account equity snapshots, performance, period return, drawdown history, and copy entry points.
 
 ## 7. Strategy Ranking And Copy Trading
 
@@ -133,6 +136,7 @@ Current capabilities:
 
 - Strategy leaderboard focused on real live-traded strategies.
 - Live strategy performance, ROI, drawdown, capital, order activity, and follower-style metadata.
+- Live strategy charts with synchronized equity and drawdown panels, explicit axes, time labels, hover inspection, and responsive horizontal access.
 - Copy-trading subscription setup.
 - Allocation, leverage, slippage, and loss-cap controls.
 - Strategy candidate saving from backtest results.

@@ -2,6 +2,14 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-08-02
+
+- Upgraded in-product backtest reports with synchronized account-equity and peak-drawdown panels.
+- Added explicit left/right value axes, time labels, grid lines, responsive horizontal access, and hover details for timestamp, equity, cumulative return, and drawdown.
+- Upgraded live leaderboard strategy detail pages with exchange-account equity snapshots, drawdown history, live period, current equity, period return, and maximum drawdown.
+- Added bilingual hosted API report pages with interactive equity/drawdown charts, positions, and rebalance records.
+- Added new public showcase screenshots for professional backtest analytics and live strategy performance.
+
 ## 2026-07-29
 
 - Added a dedicated three-step product guide covering opportunity discovery, AI analysis and validation, and user-controlled execution.

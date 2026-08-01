@@ -15,10 +15,10 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 - Adds crypto and US stock contract workspaces with live prices, interactive candlesticks, leverage controls, market and limit orders, position closing, open orders, and trade history.
 - Adds PREX AI analysis for supported contract markets, combining trend, structure, momentum, volume, market flow, large orders, funding, news, and benchmark context.
 - Guides new users from opportunity discovery to AI analysis, strategy validation, and user-controlled execution through a first-login launcher and a dedicated workflow page.
-- Supports natural-language strategy backtesting and AI-assisted strategy drafting for exchange-traded strategies.
+- Supports natural-language strategy backtesting, AI-assisted strategy drafting, and professional equity/drawdown analytics for exchange-traded strategies.
 - Connects users to the PREX Telegram Bot for qualified AI opportunity alerts and follow-up notifications when a setup is invalidated or reverses.
 - Supports Binance / OKX / Hyperliquid-oriented account flows where supported by the product surface.
-- Tracks live strategy performance, strategy rankings, and copy-trading setup flows.
+- Tracks live strategy performance, strategy rankings, exchange-account equity snapshots, drawdowns, and copy-trading setup flows.
 - Separates digital-asset strategies and stock-contract strategies in the strategy library.
 - Shows connected exchange positions inside the portfolio experience.
 - Includes a Meme Scanner for on-chain token discovery and risk screening.
@@ -69,6 +69,18 @@ PREX can generate parseable strategies through OpenAI, Anthropic, DeepSeek, Mini
 
 Illustrative historical market-neutral backtest from March 1 to July 21, 2026, including fees, slippage, data coverage, and rebalance records. Past performance does not guarantee future results.
 
+### Professional Equity And Drawdown Analytics
+
+![PREX Backtest Equity And Drawdown](assets/screenshots/backtest-equity-drawdown.png)
+
+Backtest reports now separate account equity and peak drawdown into synchronized panels. The chart includes a left equity axis, right drawdown axis, time scale, grid lines, and point-level hover details for equity, cumulative return, and drawdown.
+
+### Live Strategy Equity And Drawdown
+
+![PREX Live Strategy Equity And Drawdown](assets/screenshots/live-strategy-equity-drawdown.png)
+
+Leaderboard strategy detail pages can display exchange-account equity snapshots together with drawdown history, live period, current equity, period return, and maximum drawdown. The chart remains horizontally accessible on smaller screens.
+
 ### Prediction Markets
 
 ![PREX Markets](assets/screenshots/markets.png)
@@ -88,9 +100,9 @@ Illustrative historical market-neutral backtest from March 1 to July 21, 2026, i
 | Telegram AI Alerts | Bind the PREX Telegram Bot to receive qualified opportunity alerts plus invalidation or reversal updates without automatic execution. |
 | Trading UX | Connect wallet or exchange account, manage order flow, and reduce manual switching between tools. |
 | Portfolio | Review prediction-market positions and connected exchange positions in one place. |
-| Backtesting | Describe a strategy in natural language, optionally use an AI model to draft it, and run factor-based backtests on exchange data. |
+| Backtesting | Describe a strategy in natural language, optionally use an AI model to draft it, run factor-based backtests, and inspect synchronized equity and drawdown analytics. |
 | Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution from saved backtests, external live strategies, or public candidates. |
-| Strategy Library | Compare strategy performance, rankings, capital, drawdown, detail pages, and copy-trading setup across digital-asset and stock-contract strategies. |
+| Strategy Library | Compare strategy performance, rankings, capital, exchange-account equity, drawdown history, detail pages, and copy-trading setup across digital-asset and stock-contract strategies. |
 | Copy Trading | Let users follow supported strategies through their own connected exchange accounts, with allocation and risk controls. |
 | Meme Scanner | Detect on-chain token opportunities using liquidity, turnover, market cap, social heat, holder concentration, and risk signals. |
 | Liquidity Tools | Estimate futures liquidity and liquidation-pressure zones across major venues. |
@@ -122,9 +134,9 @@ PREX 是一个面向全球市场的 AI Trading Agent 平台，覆盖预测市场
 - 支持 PREX AI 对合约市场进行短线方向、结构、资金流、大单、新闻和关键价位分析；
 - 提供首次登录小窗口与三步产品引导，帮助用户直接进入 AI 分析、自然语言回测或实盘策略广场；
 - 支持绑定 PREX Telegram Bot，推送满足统一标准的机会，并在机会失效或方向反转时发送更新；不会自动下单或平仓；
-- 支持自然语言策略回测和 AI 辅助策略生成；
+- 支持自然语言策略回测、AI 辅助策略生成，以及带左右坐标轴、时间轴和悬停明细的净值 / 回撤专业图表；
 - 支持 Binance / OKX / Hyperliquid 相关账户和交易流程；
-- 支持策略库、排行榜、策略详情、跟单设置、数字资产 / 美股策略分类；
+- 支持策略库、排行榜、实盘净值与回撤详情、跟单设置、数字资产 / 美股策略分类；
 - 支持投资组合中展示预测市场持仓和交易所持仓；
 - 提供妖币检测、清算/流动性工具、产品更新、客服、数据看板和移动端适配。
 
