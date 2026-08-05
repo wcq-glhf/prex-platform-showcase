@@ -18,11 +18,15 @@ PREX includes a first-login launcher with direct paths to AI market analysis, na
 
 ## What markets does PREX currently support?
 
-PREX currently includes prediction-market workflows, crypto contract and US stock contract trading surfaces, exchange-traded strategy research and execution workflows, and on-chain token research through the Meme Scanner.
+PREX currently includes prediction-market workflows, crypto contract and US stock contract trading surfaces, A-share and Hong Kong equity intelligence, exchange-traded strategy research and execution workflows, and on-chain token research through the Meme Scanner.
 
 ## Does PREX support US stock trading?
 
 PREX supports US stock perpetual contracts where they are available on connected exchanges. These are derivative contracts, not spot stock ownership.
+
+## Does PREX support A-share and Hong Kong stock analysis?
+
+Yes. PREX provides a decision-support workspace for supported A-shares and Hong Kong stocks, including a scored core conclusion, trend and confidence, market and stock sentiment, technical indicators, conditional reference levels, risks, catalysts, filings, research context, and interactive 15min, 1h, and 1d candlesticks. It is an analysis surface rather than direct A-share or Hong Kong brokerage execution.
 
 ## What can users do in the contract trading workspace?
 

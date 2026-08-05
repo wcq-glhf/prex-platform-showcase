@@ -2,6 +2,18 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-08-05
+
+- Added a dedicated A-share and Hong Kong equity intelligence workspace.
+- Added a prominent PREX AI core view with score, confidence, trend, a plain-language conclusion, and a conditional reference trade plan.
+- Added separate A-share and Hong Kong selectors, searchable symbols, and progressive market-list loading without a full-page refresh.
+- Added market breadth, active-stock sentiment, technical indicators, support/resistance, risk alerts, catalysts, execution checklist, announcements, filings, and public research context.
+- Added interactive 15min, 1h, and 1d equity candlesticks with drag, wheel zoom, crosshairs, moving averages, volume, price/time axes, and point-level hover details for OHLC, change, range, volume, and turnover.
+- Refined crypto and US stock contract terminals with denser full-width layouts, integrated symbol selection, improved account panels, and a broader chart-tool surface.
+- Improved live-strategy minimum-allocation messaging so users see one practical recommendation based on the smaller viable capital reference.
+- Continued Telegram signal iteration with V12 market scanning and institutional-flow context, while keeping execution under user control.
+- Added a new public Showcase screenshot for the China and Hong Kong equity workspace and its candle-hover interaction.
+
 ## 2026-08-02
 
 - Upgraded in-product backtest reports with synchronized account-equity and peak-drawdown panels.

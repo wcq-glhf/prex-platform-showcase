@@ -5,6 +5,7 @@ This roadmap is product-facing and may change as the platform evolves.
 ## Near Term
 
 - Improve the crypto and US stock contract trading workspaces, including more symbols, clearer exchange availability, and better order-state feedback.
+- Expand A-share and Hong Kong equity coverage, improve data freshness, and deepen filings, research, catalyst, and risk context.
 - Improve PREX AI analysis quality with richer market context, clearer uncertainty handling, and more useful quick-fill trade parameters.
 - Expand Telegram AI alerts with clearer signal lifecycle updates, delivery history, and additional user-controlled notification channels.
 - Improve prediction-market discovery and trade execution flows.
@@ -16,7 +17,7 @@ This roadmap is product-facing and may change as the platform evolves.
 
 ## Global Markets
 
-- Expand market coverage beyond prediction markets and digital-asset markets.
+- Expand the current prediction-market, digital-asset, US stock contract, A-share, and Hong Kong equity coverage into additional liquid markets.
 - Add more supported US stock and crypto contract symbols where exchange support is available.
 - Improve market switching between prediction markets, exchange-traded strategies, stock perps, and research tools.
 - Build a clearer unified portfolio and order view across connected accounts.

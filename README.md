@@ -13,6 +13,7 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 - Provides an AI-assisted trading workflow for global market opportunities across prediction markets, crypto contracts, US stock contracts, exchange-traded strategies, and on-chain research.
 - Aggregates prediction-market data and trading flows.
 - Adds crypto and US stock contract workspaces with live prices, interactive candlesticks, leverage controls, market and limit orders, position closing, open orders, and trade history.
+- Adds A-share and Hong Kong equity intelligence with market breadth, stock-level sentiment, technical indicators, scored conclusions, reference levels, risk alerts, catalysts, filings, and research context.
 - Adds PREX AI analysis for supported contract markets, combining trend, structure, momentum, volume, market flow, large orders, funding, news, and benchmark context.
 - Guides new users from opportunity discovery to AI analysis, strategy validation, and user-controlled execution through a first-login launcher and a dedicated workflow page.
 - Supports natural-language strategy backtesting, AI-assisted strategy drafting, and professional equity/drawdown analytics for exchange-traded strategies.
@@ -52,6 +53,12 @@ Users can connect `PREXSignalsBot` from Settings. PREX can deliver qualified opp
 ### US Stock Perpetuals
 
 ![PREX Stock Perps](assets/screenshots/stock-perps.png)
+
+### China And Hong Kong Equity Intelligence
+
+![PREX China And Hong Kong Equity Intelligence](assets/screenshots/cn-hk-equity-analysis.png)
+
+PREX provides a decision-oriented workspace for A-shares and Hong Kong stocks. It brings the core view, score, confidence, trend, reference trade plan, market and stock sentiment, technical indicators, risk alerts, catalysts, filings, and research context into one page. The 15min, 1h, and 1d candlestick views support drag, wheel zoom, crosshairs, and point-level OHLC, change, range, volume, and turnover details.
 
 ### Strategy Library And Copy Trading
 
@@ -97,6 +104,7 @@ Leaderboard strategy detail pages can display exchange-account equity snapshots 
 | Markets | Browse prediction markets, crypto contracts, and US stock contracts from one market surface. |
 | Contract Trading | Trade supported crypto and US stock contracts with leverage, market/limit orders, close flows, open orders, and trade history. |
 | PREX AI Analysis | Generate short-term market reads with direction, confidence, structure evidence, key levels, and quick-fill trade parameters. |
+| China & Hong Kong Equities | Analyze A-shares and Hong Kong stocks with scored conclusions, sentiment, technicals, reference levels, risk alerts, catalysts, filings, research context, and interactive intraday/daily candlesticks. |
 | Telegram AI Alerts | Bind the PREX Telegram Bot to receive qualified opportunity alerts plus invalidation or reversal updates without automatic execution. |
 | Trading UX | Connect wallet or exchange account, manage order flow, and reduce manual switching between tools. |
 | Portfolio | Review prediction-market positions and connected exchange positions in one place. |
@@ -132,6 +140,8 @@ PREX 是一个面向全球市场的 AI Trading Agent 平台，覆盖预测市场
 - 聚合预测市场、加密货币合约和美股合约交易界面；
 - 支持合约实时价格、K 线、杠杆、市价/限价、平仓、委托、历史交易和止盈止损；
 - 支持 PREX AI 对合约市场进行短线方向、结构、资金流、大单、新闻和关键价位分析；
+- 支持 A股与港股决策分析，集中展示核心结论、评分、趋势、置信度、参考买卖点、市场与个股情绪、技术指标、风险警报、催化因素、公告和研报；
+- A股与港股 K 线支持 15min、1h、1d 周期、拖动、滚轮缩放、十字线以及开高低收、涨跌、振幅、成交量和成交额悬停明细；
 - 提供首次登录小窗口与三步产品引导，帮助用户直接进入 AI 分析、自然语言回测或实盘策略广场；
 - 支持绑定 PREX Telegram Bot，推送满足统一标准的机会，并在机会失效或方向反转时发送更新；不会自动下单或平仓；
 - 支持自然语言策略回测、AI 辅助策略生成，以及带左右坐标轴、时间轴和悬停明细的净值 / 回撤专业图表；

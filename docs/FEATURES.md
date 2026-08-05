@@ -75,7 +75,25 @@ Current capabilities:
 - Crypto analysis can include BTC benchmark context, market flow, large-order snapshots, funding rates, and BlockBeats news.
 - US stock contract analysis uses stock-specific long/short thresholds and treats short setups more strictly.
 
-## 4. Portfolio
+## 4. China And Hong Kong Equity Intelligence
+
+PREX includes a decision-oriented research workspace for supported A-shares and Hong Kong stocks.
+
+Current capabilities:
+
+- Separate A-share and Hong Kong stock selectors without reloading the full page.
+- Searchable and progressively loaded symbol coverage.
+- A prominent PREX AI core view with score, confidence, trend, and a plain-language conclusion.
+- Reference entry zone, breakout level, invalidation level, targets, and risk/reward context.
+- Market-wide sentiment and active-stock sentiment shown as distinct inputs.
+- MA5, MA20, MA60, RSI, MACD, ATR, range position, support, resistance, volume, turnover, and breadth context.
+- Risk alerts, catalysts, execution checklist, company filings, announcements, and public research links.
+- Interactive 15min, 1h, and 1d candlestick views with drag, wheel zoom, reset, moving averages, volume, price/time axes, and crosshairs.
+- Point-level candle hover details for time, open, high, low, close, price change, percentage change, range, volume, and turnover.
+- Chinese and English presentation across the analysis surface.
+- Decision-support positioning only; reference levels are not broker execution or personalized investment advice.
+
+## 5. Portfolio
 
 PREX includes a portfolio view for user positions and trading state.
 
@@ -89,7 +107,7 @@ Current capabilities:
 - Position value, entry value, mark price, unrealized PnL, and direction display.
 - Multilingual market-name and position display improvements.
 
-## 5. Backtesting
+## 6. Backtesting
 
 PREX supports strategy research for exchange-traded strategies.
 
@@ -109,7 +127,7 @@ Current capabilities:
 - Background backtest task mode for heavier jobs.
 - Guest backtest quota before login is required.
 
-## 6. Strategy Library And Live Execution
+## 7. Strategy Library And Live Execution
 
 PREX supports user-controlled live strategy execution through exchange API credentials.
 
@@ -128,7 +146,7 @@ Current capabilities:
 - Scheduled live strategy execution based on candle timing.
 - Strategy detail pages for live and saved strategies, including exchange-account equity snapshots, performance, period return, drawdown history, and copy entry points.
 
-## 7. Strategy Ranking And Copy Trading
+## 8. Strategy Ranking And Copy Trading
 
 PREX is building toward a practical strategy marketplace and copy-trading layer.
 
@@ -144,7 +162,7 @@ Current capabilities:
 - Exchange-side external strategies can appear in the leaderboard and copy-trading flow.
 - Historical external strategy records can remain visible after real trading activity has occurred.
 
-## 8. Meme Scanner
+## 9. Meme Scanner
 
 The Meme Scanner is designed for small-cap token discovery and risk screening.
 
@@ -166,7 +184,7 @@ Views:
 - Detail page with token profile, liquidity pools, top traders, risk structure, and K-line chart.
 - K-line chart supports interval switching, drag, zoom, reset, and hover tooltip.
 
-## 9. Liquidity And Liquidation-Pressure Tools
+## 10. Liquidity And Liquidation-Pressure Tools
 
 PREX includes futures research tools for estimating liquidity and liquidation-pressure zones.
 
@@ -179,7 +197,7 @@ Current capabilities:
 - Mouse hover values and zoom/drag interaction.
 - Designed as a trading research aid rather than an exchange account-level liquidation feed.
 
-## 10. Invite, Analytics, Updates, And Support
+## 11. Invite, Analytics, Updates, And Support
 
 PREX includes lightweight growth, analytics, and support workflows.
 
@@ -193,7 +211,7 @@ Current capabilities:
 - Notification bell for product updates.
 - Customer support widget with Telegram contact.
 
-## 11. Mobile Web Experience
+## 12. Mobile Web Experience
 
 PREX supports mobile browser access for core product surfaces.
 
