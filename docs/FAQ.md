@@ -34,7 +34,7 @@ Users can view supported crypto and stock contract markets, inspect live prices 
 
 ## Does PREX support backtesting?
 
-Yes. PREX supports natural-language strategy descriptions, AI-assisted strategy drafting, and factor-based backtesting for exchange-traded strategies. The showcase repository only describes the product surface and does not include the implementation.
+Yes. PREX supports a conversation-first Strategy Studio, local chat and draft recovery, portfolio-engine compatibility checks, complete reference cases, natural-language strategy descriptions, AI-assisted drafting, factor-based backtesting, shareable read-only reports, and branded result posters. The showcase repository only describes the product surface and does not include the implementation.
 
 ## Can PREX send AI opportunities to Telegram?
 

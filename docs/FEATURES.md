@@ -113,6 +113,10 @@ PREX supports strategy research for exchange-traded strategies.
 
 Current capabilities:
 
+- Conversation-first blank workspace for describing a strategy without inheriting a preset.
+- Local chat history and draft recovery for interrupted or failed strategy runs.
+- Portfolio-engine compatibility checks before execution, with focused follow-up questions for missing inputs.
+- Complete reference and popular cases, including all-market-neutral and cross-sectional long/short rotation examples.
 - Natural-language strategy input.
 - AI-assisted strategy drafting with user-configured model providers.
 - PREX-side strategy translation fallback for ambiguous natural-language strategy text.
@@ -123,6 +127,8 @@ Current capabilities:
 - Backtest result views for equity curve, return, loss limit, rebalance history, and data coverage.
 - Professional dual-panel analytics with a left account-equity axis, right peak-drawdown axis, time scale, grid lines, and synchronized equity/drawdown curves.
 - Point-level chart hover details for timestamp, account equity, cumulative return, and drawdown.
+- Shareable read-only result links that keep private strategy factors, parameters, and weights hidden.
+- Branded result posters for X, Xiaohongshu, and Douyin with the trader profile, strategy name, return, maximum drawdown, and equity curve.
 - Hosted bilingual API report pages with interactive equity curves, drawdowns, positions, and rebalance records.
 - Background backtest task mode for heavier jobs.
 - Guest backtest quota before login is required.

@@ -2,6 +2,17 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-08-10
+
+- Redesigned Strategy Studio around a blank, conversation-first workflow instead of a prefilled strategy.
+- Added local conversation history and draft recovery so users can resume after an interrupted or failed strategy run.
+- Added portfolio-engine compatibility checks, structured rule extraction, and focused follow-up questions for missing parameters.
+- Added complete reference and popular cases, including an all-market-neutral strategy snapshot and a cross-sectional long/short strength rotation example.
+- Added shareable read-only backtest links that keep private factors, parameters, and weights hidden.
+- Added branded backtest result posters for X, Xiaohongshu, and Douyin with trader profile, return, maximum drawdown, and equity curve.
+- Fixed strategy-navigation dropdown state so switching tabs closes the previous menu consistently.
+- Added a new public Showcase screenshot for the conversation-first Strategy Studio.
+
 ## 2026-08-05
 
 - Added a dedicated A-share and Hong Kong equity intelligence workspace.
