@@ -114,7 +114,9 @@ PREX supports strategy research for exchange-traded strategies.
 Current capabilities:
 
 - Conversation-first blank workspace for describing a strategy without inheriting a preset.
+- A compact professional form that groups indicators by trend, momentum, mean reversion, volatility, and liquidity, while keeping long and short configuration in separate tabs.
 - Local chat history and draft recovery for interrupted or failed strategy runs.
+- Follow-up edits preserve previously confirmed leverage and drawdown settings unless the user explicitly changes them.
 - Portfolio-engine compatibility checks before execution, with focused follow-up questions for missing inputs.
 - Complete reference and popular cases, including all-market-neutral and cross-sectional long/short rotation examples.
 - Natural-language strategy input.
@@ -129,6 +131,8 @@ Current capabilities:
 - Point-level chart hover details for timestamp, account equity, cumulative return, and drawdown.
 - Shareable read-only result links that keep private strategy factors, parameters, and weights hidden.
 - Branded result posters for X, Xiaohongshu, and Douyin with the trader profile, strategy name, return, maximum drawdown, and equity curve.
+- Platform-aware sharing actions open the X composer or official Xiaohongshu/Douyin creator pages, copy the caption, and download the correct poster aspect ratio.
+- Editable account avatars and non-sequential public PREX UIDs identify the trader on shared results without exposing an internal account sequence.
 - Hosted bilingual API report pages with interactive equity curves, drawdowns, positions, and rebalance records.
 - Background backtest task mode for heavier jobs.
 - Guest backtest quota before login is required.

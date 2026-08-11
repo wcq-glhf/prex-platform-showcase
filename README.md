@@ -18,6 +18,7 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 - Guides new users from opportunity discovery to AI analysis, strategy validation, and user-controlled execution through a first-login launcher and a dedicated workflow page.
 - Supports a conversation-first Strategy Studio with local chat recovery, engine-compatibility checks, reference cases, natural-language backtesting, and professional equity/drawdown analytics.
 - Generates shareable read-only backtest links and branded result posters sized for X, Xiaohongshu, and Douyin, including the trader profile, return, drawdown, and equity curve.
+- Adds editable avatars and non-sequential public PREX UIDs, plus platform-aware publishing actions and platform-sized poster downloads.
 - Connects users to the PREX Telegram Bot for qualified AI opportunity alerts and follow-up notifications when a setup is invalidated or reverses.
 - Supports Binance / OKX / Hyperliquid-oriented account flows where supported by the product surface.
 - Tracks live strategy performance, strategy rankings, exchange-account equity snapshots, drawdowns, and copy-trading setup flows.
@@ -117,6 +118,7 @@ Leaderboard strategy detail pages can display exchange-account equity snapshots 
 | Portfolio | Review prediction-market positions and connected exchange positions in one place. |
 | Backtesting | Build a strategy through a recoverable conversation, review engine compatibility and extracted rules, start from reference cases when useful, run factor-based backtests, and inspect synchronized equity/drawdown analytics. |
 | Backtest Sharing | Create a read-only result link or a branded poster for X, Xiaohongshu, and Douyin with the trader avatar, strategy name, return, drawdown, and equity curve. |
+| Account Identity | Edit the profile avatar and use a non-sequential public PREX UID on shared strategy results. |
 | Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution from saved backtests, external live strategies, or public candidates. |
 | Strategy Library | Compare strategy performance, rankings, capital, exchange-account equity, drawdown history, detail pages, and copy-trading setup across digital-asset and stock-contract strategies. |
 | Copy Trading | Let users follow supported strategies through their own connected exchange accounts, with allocation and risk controls. |

@@ -2,6 +2,15 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-08-12
+
+- Refined the Strategy Studio professional form with clearer factor categories, compact long/short tabs, equal default influence for newly selected indicators, and plain-language lookback controls.
+- Preserved previously confirmed leverage and drawdown settings when users make follow-up changes such as a new rebalance cadence.
+- Improved strategy-workspace navigation so direct Backtest and Library URLs take precedence over stale tab hashes.
+- Added editable profile avatars and non-sequential public PREX UIDs for account identity and result sharing.
+- Improved backtest poster branding and added platform-aware publishing actions: X composer support, official Xiaohongshu/Douyin creator entry points, caption copying, and platform-sized downloads.
+- Normalized public case names such as Long/Short Strength Strategy and AI Semiconductor Trend Strategy.
+
 ## 2026-08-10
 
 - Redesigned Strategy Studio around a blank, conversation-first workflow instead of a prefilled strategy.
