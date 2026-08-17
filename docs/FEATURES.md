@@ -114,7 +114,12 @@ PREX supports strategy research for exchange-traded strategies.
 Current capabilities:
 
 - Conversation-first blank workspace for describing a strategy without inheriting a preset.
+- Two explicit research modes: multi-asset cross-sectional ranking and single-symbol CTA time-series signals.
 - A compact professional form that groups indicators by trend, momentum, mean reversion, volatility, and liquidity, while keeping long and short configuration in separate tabs.
+- A categorized CTA catalog covering momentum, trend, breakout/channel, mean reversion, volatility, volume/flow, and composite signals.
+- Multiple single-symbol factors can be combined with equal default weights; every calculation window remains user-controlled.
+- The chat composer includes a factor picker that writes the selected human-readable names, exact factor IDs, and windows into an editable draft without sending automatically.
+- Source safety checks keep factors with potential look-ahead behavior unavailable for execution; executable Python factors are also tested by comparing historical signals before and after future candles are appended.
 - Local chat history and draft recovery for interrupted or failed strategy runs.
 - Follow-up edits preserve previously confirmed leverage and drawdown settings unless the user explicitly changes them.
 - Portfolio-engine compatibility checks before execution, with focused follow-up questions for missing inputs.

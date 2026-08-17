@@ -16,7 +16,8 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 - Adds A-share and Hong Kong equity intelligence with market breadth, stock-level sentiment, technical indicators, scored conclusions, reference levels, risk alerts, catalysts, filings, and research context.
 - Adds PREX AI analysis for supported contract markets, combining trend, structure, momentum, volume, market flow, large orders, funding, news, and benchmark context.
 - Guides new users from opportunity discovery to AI analysis, strategy validation, and user-controlled execution through a first-login launcher and a dedicated workflow page.
-- Supports a conversation-first Strategy Studio with local chat recovery, engine-compatibility checks, reference cases, natural-language backtesting, and professional equity/drawdown analytics.
+- Supports a conversation-first Strategy Studio with local chat recovery, engine-compatibility checks, reference cases, natural-language backtesting, and separate cross-sectional portfolio and single-symbol CTA time-series engines.
+- Lets users browse safety-reviewed time-series factors by category, combine multiple factors with user-defined windows, and insert the exact selection into an editable chat draft before sending it to PREX.
 - Generates shareable read-only backtest links and branded result posters sized for X, Xiaohongshu, and Douyin, including the trader profile, return, drawdown, and equity curve.
 - Adds editable avatars and non-sequential public PREX UIDs, plus platform-aware publishing actions and platform-sized poster downloads.
 - Connects users to the PREX Telegram Bot for qualified AI opportunity alerts and follow-up notifications when a setup is invalidated or reverses.
@@ -76,7 +77,7 @@ PREX can generate parseable strategies through OpenAI, Anthropic, DeepSeek, Mini
 
 ![PREX Conversation-First Strategy Studio](assets/screenshots/strategy-studio.png)
 
-The default workspace starts from a blank conversation. PREX checks whether the portfolio engine supports the idea, extracts the market, universe, interval, exposure, costs, and factors, and asks only for missing inputs. Local chat history and drafts allow users to resume after a failed or interrupted run. Complete reference and popular cases remain available below the conversation without replacing the user's own idea.
+The default workspace starts from a blank conversation. PREX checks whether the portfolio or single-symbol time-series engine supports the idea, extracts the market, universe, interval, exposure, costs, and factors, and asks only for missing inputs. Users can also choose safety-reviewed factors by category, set each calculation window, and generate an editable prompt without sending it automatically. Local chat history and drafts allow users to resume after a failed or interrupted run.
 
 ### Natural-Language Backtest Results
 
@@ -116,7 +117,7 @@ Leaderboard strategy detail pages can display exchange-account equity snapshots 
 | Telegram AI Alerts | Bind the PREX Telegram Bot to receive qualified opportunity alerts plus invalidation or reversal updates without automatic execution. |
 | Trading UX | Connect wallet or exchange account, manage order flow, and reduce manual switching between tools. |
 | Portfolio | Review prediction-market positions and connected exchange positions in one place. |
-| Backtesting | Build a strategy through a recoverable conversation, review engine compatibility and extracted rules, start from reference cases when useful, run factor-based backtests, and inspect synchronized equity/drawdown analytics. |
+| Backtesting | Build a strategy through a recoverable conversation or professional form, run multi-asset cross-sectional portfolios or single-symbol CTA time-series factor combinations, review executable rules, and inspect synchronized equity/drawdown analytics. |
 | Backtest Sharing | Create a read-only result link or a branded poster for X, Xiaohongshu, and Douyin with the trader avatar, strategy name, return, drawdown, and equity curve. |
 | Account Identity | Edit the profile avatar and use a non-sequential public PREX UID on shared strategy results. |
 | Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution from saved backtests, external live strategies, or public candidates. |
@@ -154,7 +155,8 @@ PREX 是一个面向全球市场的 AI Trading Agent 平台，覆盖预测市场
 - A股与港股 K 线支持 15min、1h、1d 周期、拖动、滚轮缩放、十字线以及开高低收、涨跌、振幅、成交量和成交额悬停明细；
 - 提供首次登录小窗口与三步产品引导，帮助用户直接进入 AI 分析、自然语言回测或实盘策略广场；
 - 支持绑定 PREX Telegram Bot，推送满足统一标准的机会，并在机会失效或方向反转时发送更新；不会自动下单或平仓；
-- 支持从空白对话开始构建策略、本地恢复历史会话与草稿、检查组合引擎能力、补问缺失参数，并提供完整参考与热门案例；
+- 支持从空白对话开始构建策略、本地恢复历史会话与草稿，并分别使用多币横截面组合引擎或单币 CTA 时序引擎；
+- 支持按类别选择通过安全检查的时序因子、自定义每个因子的计算周期、多因子等权组合，并自动生成可编辑但不会自动发送的对话草稿；
 - 支持自然语言策略回测、AI 辅助策略生成，以及带左右坐标轴、时间轴和悬停明细的净值 / 回撤专业图表；
 - 支持生成只读回测链接，以及适配 X、小红书、抖音的战绩海报，展示用户头像、策略名称、收益、最大回撤和资金曲线；
 - 支持 Binance / OKX / Hyperliquid 相关账户和交易流程；

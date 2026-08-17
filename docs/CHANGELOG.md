@@ -2,6 +2,16 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-08-17
+
+- Added a single-symbol CTA time-series backtest mode alongside the existing multi-asset cross-sectional portfolio engine.
+- Added a categorized time-series factor catalog spanning momentum, trend, breakout/channel, mean reversion, volatility, volume/flow, and composite signals.
+- Added multi-factor time-series combinations with equal default weights and a user-defined calculation window for every selected factor.
+- Added a factor picker to the conversation composer. It generates an editable prompt with exact factor IDs and parameters, but never sends the message automatically.
+- Added Python-backed factor execution while keeping native and Python factors interoperable in the same strategy.
+- Added look-ahead source screening and prefix-causality tests; factors that may reference future data remain cataloged but unavailable for backtests.
+- Published 80 catalog entries in the current release: 66 executable factors and 14 safety-blocked entries.
+
 ## 2026-08-12
 
 - Refined the Strategy Studio professional form with clearer factor categories, compact long/short tabs, equal default influence for newly selected indicators, and plain-language lookback controls.
