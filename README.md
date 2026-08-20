@@ -19,6 +19,8 @@ PREX helps users discover markets, evaluate strategies, run live execution, and 
 - Supports a conversation-first Strategy Studio with local chat recovery, engine-compatibility checks, reference cases, natural-language backtesting, and separate cross-sectional portfolio and single-symbol CTA time-series engines.
 - Lets users browse safety-reviewed time-series factors by category, combine multiple factors with user-defined windows, and insert the exact selection into an editable chat draft before sending it to PREX.
 - Generates shareable read-only backtest links and branded result posters sized for X, Xiaohongshu, and Douyin, including the trader profile, return, drawdown, and equity curve.
+- Lets users publish a saved backtest to the Strategy Marketplace without disclosing private factor definitions, then deploy the published strategy through a connected trading account.
+- Presents historical backtests and post-publication tracking as one continuous performance record with a clear publication boundary, consistent return, drawdown, Sharpe, and rebalance metrics.
 - Adds editable avatars and non-sequential public PREX UIDs, plus platform-aware publishing actions and platform-sized poster downloads.
 - Connects users to the PREX Telegram Bot for qualified AI opportunity alerts and follow-up notifications when a setup is invalidated or reverses.
 - Supports Binance / OKX / Hyperliquid-oriented account flows where supported by the product surface.
@@ -121,7 +123,7 @@ Leaderboard strategy detail pages can display exchange-account equity snapshots 
 | Backtest Sharing | Create a read-only result link or a branded poster for X, Xiaohongshu, and Douyin with the trader avatar, strategy name, return, drawdown, and equity curve. |
 | Account Identity | Edit the profile avatar and use a non-sequential public PREX UID on shared strategy results. |
 | Live Strategies | Configure Binance / OKX API credentials and run user-controlled live strategy execution from saved backtests, external live strategies, or public candidates. |
-| Strategy Library | Compare strategy performance, rankings, capital, exchange-account equity, drawdown history, detail pages, and copy-trading setup across digital-asset and stock-contract strategies. |
+| Strategy Library | Compare published backtests and live strategies in one marketplace, including continuous performance, annualized return, drawdown, Sharpe, rebalance activity, minimum capital, detail pages, and copy-trading setup. |
 | Copy Trading | Let users follow supported strategies through their own connected exchange accounts, with allocation and risk controls. |
 | Meme Scanner | Detect on-chain token opportunities using liquidity, turnover, market cap, social heat, holder concentration, and risk signals. |
 | Liquidity Tools | Estimate futures liquidity and liquidation-pressure zones across major venues. |

@@ -2,6 +2,16 @@
 
 This changelog summarizes public product progress. It does not include source code, credentials, private infrastructure, or proprietary strategy logic.
 
+## 2026-08-20
+
+- Added an explicit publish action for saved backtests so users can make a strategy discoverable without exposing its private factor definitions.
+- Added a dedicated My Backtests workspace with result review, publication, deletion, and live-deployment entry points.
+- Unified published backtests and live strategies in the Strategy Marketplace instead of separating them into disconnected catalogs.
+- Joined historical backtest equity and post-publication tracking into one continuous chart with a visible publication boundary and zoomable time range.
+- Standardized strategy cards and detail pages around cumulative return, annualized return, maximum drawdown, Sharpe ratio, rebalance activity, and minimum viable capital.
+- Simplified live-strategy creation and trading-account connection checks while preserving inherited strategy rules and exchange safeguards.
+- Improved profile-avatar refresh behavior so the global navigation reads the latest saved account profile rather than a stale login token.
+
 ## 2026-08-17
 
 - Added a single-symbol CTA time-series backtest mode alongside the existing multi-asset cross-sectional portfolio engine.

@@ -149,6 +149,11 @@ PREX supports user-controlled live strategy execution through exchange API crede
 Current capabilities:
 
 - Strategy library with live strategy rows, detail pages, professional equity/drawdown charts, and copy-trading setup.
+- One mixed marketplace for published backtests and live strategies, with a consistent visual and metric hierarchy.
+- Saved-backtest publishing that exposes rules and performance while keeping private factor definitions hidden.
+- A dedicated My Backtests workspace for viewing, publishing, deleting, or deploying a completed backtest.
+- Continuous strategy performance that joins historical backtest data with post-publication tracking and marks the publication boundary on the chart.
+- Comparable cumulative return, annualized return, maximum drawdown, Sharpe ratio, rebalance count, and minimum-capital fields across strategy cards.
 - Digital-asset and stock-perp strategy filters.
 - Binance and OKX API credential configuration.
 - Credential test flow before enabling live strategies.
@@ -173,6 +178,7 @@ Current capabilities:
 - Copy-trading subscription setup.
 - Allocation, leverage, slippage, and loss-cap controls.
 - Strategy candidate saving from backtest results.
+- Published backtests can enter ongoing simulated tracking before a user chooses to run them through a connected live account.
 - Public copy/live strategies exposed as executable candidates.
 - Exchange-side external strategies can appear in the leaderboard and copy-trading flow.
 - Historical external strategy records can remain visible after real trading activity has occurred.
