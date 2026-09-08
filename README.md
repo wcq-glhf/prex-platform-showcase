@@ -8,7 +8,7 @@ Live product: [https://prex.best](https://prex.best)
 
 - [PREX AI Strategy Agent × Binance Agent OS](hackathons/binance-agent-os/README.md) — Binance Agent OS Mini Hackathon, Track A.
 
-> This repository is a public product showcase. It contains feature descriptions, screenshots, and roadmap notes only. It does not contain PREX source code, private infrastructure, credentials, or trading secrets.
+> This repository is a public product showcase. It contains feature descriptions, screenshots, roadmap notes, and small public integration examples. It does not contain PREX application source code, private infrastructure, credentials, or trading secrets.
 
 ## What PREX Does
 

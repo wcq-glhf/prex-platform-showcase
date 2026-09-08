@@ -10,7 +10,7 @@ PREX AI Strategy Agent turns live market context into understandable, testable t
 
 The default competition workflow is read-only. It does not place orders, request withdrawal permission, or replace PREX's existing user-authorized execution system.
 
-[Live product](https://prex.best) · [Watch demo](https://drive.google.com/file/d/18hOAWbHKjNPVI5ON2luKm4YQ1UTeMpHG/view?usp=drive_link) · [PREX Strategy MCP](https://prex.best/api/mcp) · [中文说明](README.zh-CN.md)
+[Live product](https://prex.best) · [Watch demo](https://drive.google.com/file/d/18hOAWbHKjNPVI5ON2luKm4YQ1UTeMpHG/view?usp=drive_link) · [MCP architecture](docs/ARCHITECTURE.md) · [中文说明](README.zh-CN.md)
 
 ## Why this agent
 
@@ -58,7 +58,7 @@ Single-asset analysis and cross-market ranking can return a `strategyStudio.url`
 
 ## Connect the agent
 
-Use an MCP-compatible host supported by Binance, such as Codex, Claude, ChatGPT, Cursor, or VS Code.
+Use an MCP-compatible host supported by Binance, such as Codex, Claude, ChatGPT, or VS Code. Follow the [official Binance setup guide](https://developers.binance.com/en/docs/agent-native/mcp-server/agentic) instead of opening an MCP endpoint in a browser.
 
 Add both Streamable HTTP endpoints:
 
@@ -118,7 +118,7 @@ assets/                 PREX brand asset
 - Track: **Track A — Agent Creation**
 - Product: **PREX AI Strategy Agent**
 - Website: [https://prex.best](https://prex.best)
-- Public MCP: [https://prex.best/api/mcp](https://prex.best/api/mcp)
+- Public MCP: `https://prex.best/api/mcp` (connect through an MCP-compatible host; POST endpoint)
 - Demo video: [Watch online](https://drive.google.com/file/d/18hOAWbHKjNPVI5ON2luKm4YQ1UTeMpHG/view?usp=drive_link)
 
 The official competition announcement describes Track A as building an AI agent with Agent OS and asks entrants to submit a video/demo plus GitHub where applicable. See the [official Binance announcement](https://www.binance.com/en/square/post/362885563835358) and [Binance Agentic MCP documentation](https://developers.binance.com/en/docs/agent-native/mcp-server/agentic).

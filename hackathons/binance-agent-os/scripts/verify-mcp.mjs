@@ -21,6 +21,14 @@ const initialized = await rpc(1, "initialize", {
   capabilities: {},
   clientInfo: { name: "PREX hackathon verifier", version: "1.0.0" },
 })
+await fetch(endpoint, {
+  method: "POST",
+  headers: {
+    accept: "application/json, text/event-stream",
+    "content-type": "application/json",
+  },
+  body: JSON.stringify({ jsonrpc: "2.0", method: "notifications/initialized" }),
+})
 const listed = await rpc(2, "tools/list")
 const names = listed.tools.map((tool) => tool.name)
 const expected = [
@@ -39,4 +47,3 @@ console.log(JSON.stringify({
   protocolVersion: initialized.protocolVersion,
   tools: names,
 }, null, 2))
-
