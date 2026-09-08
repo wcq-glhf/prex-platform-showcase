@@ -17,7 +17,7 @@ It combines Binance Agent OS live market context with PREX Strategy MCP to analy
 
 Default workflow: Market Data only. No autonomous trade or withdrawal permission.
 
-Demo: https://drive.google.com/file/d/18hOAWbHKjNPVI5ON2luKm4YQ1UTeMpHG/view?usp=drive_link
+Demo: https://github.com/wcq-glhf/prex-platform-showcase/blob/main/hackathons/binance-agent-os/assets/prex-binance-agent-os-demo.mp4
 GitHub: https://github.com/wcq-glhf/prex-platform-showcase/tree/main/hackathons/binance-agent-os
 Product: https://prex.best
 

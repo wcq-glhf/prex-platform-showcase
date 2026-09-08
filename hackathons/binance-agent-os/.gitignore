@@ -5,5 +5,5 @@
 node_modules/
 *.log
 *.mp4
+!assets/prex-binance-agent-os-demo.mp4
 *.mov
-

@@ -6,7 +6,7 @@ PREX AI Strategy Agent 将 Binance Agent OS 提供的实时市场信息，转化
 
 比赛演示默认全程只读：不自动下单、不申请提现权限，也不替代 PREX 原有的用户授权实盘系统。
 
-[PREX 官网](https://prex.best) · [比赛演示视频](https://drive.google.com/file/d/18hOAWbHKjNPVI5ON2luKm4YQ1UTeMpHG/view?usp=drive_link) · [PREX Strategy MCP](https://prex.best/api/mcp) · [English](README.md)
+[PREX 官网](https://prex.best) · [完整比赛演示视频](assets/prex-binance-agent-os-demo.mp4) · [PREX Strategy MCP](https://prex.best/api/mcp) · [English](README.md)
 
 ## 核心流程
 
