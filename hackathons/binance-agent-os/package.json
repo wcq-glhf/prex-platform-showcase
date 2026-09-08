@@ -1,0 +1,15 @@
+{
+  "name": "prex-binance-agent-os",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PREX AI Strategy Agent submission for the Binance Agent OS Mini Hackathon",
+  "type": "module",
+  "scripts": {
+    "verify": "node scripts/verify-mcp.mjs",
+    "demo:eth": "node scripts/demo-eth.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

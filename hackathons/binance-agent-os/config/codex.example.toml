@@ -1,0 +1,10 @@
+# Copy these entries into your Codex MCP configuration.
+# Binance authorization is completed by the supported host agent.
+# Keep the Binance connection on Market Data permission for the read-only demo.
+
+[mcp_servers.binance_agent_os]
+url = "https://agent.binance.com/mcp/agentic"
+
+[mcp_servers.prex_strategy]
+url = "https://prex.best/api/mcp"
+
