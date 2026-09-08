@@ -56,6 +56,8 @@ npm run demo:eth
 
 详细演示步骤见 [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md)。
 
+其他用户可以按照英文版 [`docs/REPLICATION_GUIDE.md`](docs/REPLICATION_GUIDE.md) 从零连接两个 MCP，并复现完整的只读 Agent 工作流。
+
 ## 参赛信息
 
 - 赛道：Track A — Agent Creation

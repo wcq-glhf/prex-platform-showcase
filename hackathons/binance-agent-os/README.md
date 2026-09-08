@@ -69,6 +69,8 @@ PREX Strategy MCP: https://prex.best/api/mcp
 
 A Codex configuration example is available at [`config/codex.example.toml`](config/codex.example.toml). The host handles Binance authentication; do not place access tokens in this repository or in screen recordings.
 
+For an end-to-end setup that another user can follow, see the [step-by-step replication guide](docs/REPLICATION_GUIDE.md).
+
 ## Reproduce the public PREX MCP check
 
 Requirements: Node.js 20 or newer. No API key is required for the public, rate-limited PREX research endpoint.
@@ -107,7 +109,7 @@ See [`docs/SAFETY.md`](docs/SAFETY.md) for the trust boundaries and failure beha
 
 ```text
 config/                 Example dual-MCP host configuration
-docs/                   Architecture, demo, safety, and submission notes
+docs/                   Architecture, replication, demo, safety, and submission notes
 examples/               Agent instructions and demo prompts
 scripts/                Dependency-free MCP verification scripts
 assets/                 PREX brand asset
