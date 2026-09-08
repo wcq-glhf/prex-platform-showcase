@@ -2,7 +2,7 @@
 
 > Binance Agent OS Mini Hackathon — Track A：Agent Creation
 
-PREX AI Strategy Agent 将 Binance Agent OS 提供的实时市场信息，转化为普通用户能够理解、验证和回测的策略规则。
+PREX AI Strategy Agent 基于 Binance Agent OS 构建，将 Binance Agent OS 提供的实时市场信息转化为普通用户能够理解、验证和回测的策略规则。Binance Agent OS 负责市场上下文，PREX Strategy MCP 负责分析、排名、风险检查与策略草案生成。
 
 比赛演示默认全程只读：不自动下单、不申请提现权限，也不替代 PREX 原有的用户授权实盘系统。
 

@@ -6,7 +6,7 @@
 
 > Binance Agent OS Mini Hackathon — Track A: Agent Creation
 
-PREX AI Strategy Agent turns live market context into understandable, testable trading strategies. It combines Binance Agent OS for current market data with PREX Strategy MCP for analysis, cross-market ranking, risk checks, and strategy-draft handoff to PREX Strategy Studio.
+Built on Binance Agent OS, PREX AI Strategy Agent turns live Binance market context into understandable, testable trading strategies. Binance Agent OS supplies current market data; PREX Strategy MCP adds analysis, cross-market ranking, risk checks, and strategy-draft handoff to PREX Strategy Studio.
 
 The default competition workflow is read-only. It does not place orders, request withdrawal permission, or replace PREX's existing user-authorized execution system.
 

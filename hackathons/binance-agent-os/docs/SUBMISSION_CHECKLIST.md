@@ -10,9 +10,9 @@
 ## Suggested X post content
 
 ```text
-Built PREX AI Strategy Agent for the @Binance Agent OS Mini Hackathon — Track A.
+Track A: Built on @Binance Agent OS, PREX turns live market data into explainable, backtest-ready strategies.
 
-Binance market context + PREX MCP for analysis, rankings, risk checks and backtest-ready strategy drafts.
+Agent OS supplies market context; PREX MCP adds analysis, ranking and risk checks.
 
 Demo: https://drive.google.com/file/d/18hOAWbHKjNPVI5ON2luKm4YQ1UTeMpHG/view?usp=drive_link
 GitHub: https://github.com/wcq-glhf/prex-platform-showcase/tree/main/hackathons/binance-agent-os
